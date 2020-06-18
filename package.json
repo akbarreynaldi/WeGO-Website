@@ -1,0 +1,24 @@
+{
+  "name": "wego-website",
+  "version": "1.0.0",
+  "description": "Travel Website Learning Project from BuildWithAngga.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbarreynaldi/WeGO-Website.git"
+  },
+  "keywords": [
+    "Travel",
+    "Website",
+    "WeGO"
+  ],
+  "author": "Reynaldi Akbar Maulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akbarreynaldi/WeGO-Website/issues"
+  },
+  "homepage": "https://github.com/akbarreynaldi/WeGO-Website#readme"
+}
