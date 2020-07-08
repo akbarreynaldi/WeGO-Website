@@ -258,7 +258,7 @@ header {
         }
     }
     .card-details {
-        padding: 10px;
+        padding: 30px;
         border-radius: 11px;
         -webkit-border-radius: 11px;
         -moz-border-radius: 11px;
@@ -274,26 +274,40 @@ header {
             font-size: 18px;
             color: #B1B1B1;
         }
-        .features {
-            margin-top: 20px;
-            h3 {
-                font-size: 18px;
-                color: #071C4D;
-                margin-bottom: 0;
+    }
+    .gallery {
+        .xzoom-container {
+            display: block;
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
             }
-            p {
-                margin-bottom: 0;
+            .xactive {
+                border: 2px solid #1ABC9C;
+                box-shadow: none;
             }
-            .description {
-                margin-left: 10px;
-                overflow: hidden;
-                float: left;
-            }
-            .features-image {
-                width: 45px;
-                height: 45px;
-                float: left;
-            }
+        }
+    }
+    .features {
+        margin-top: 20px;
+        h3 {
+            font-size: 18px;
+            color: #071C4D;
+            margin-bottom: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        .description {
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+        }
+        .features-image {
+            width: 45px;
+            height: 45px;
+            float: left;
         }
     }
 }
