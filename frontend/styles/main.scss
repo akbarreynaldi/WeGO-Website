@@ -1,9 +1,10 @@
 body {
-    background-color: #e4e6eb;
+    background-color: #E4E6EB;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
 
+// navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -36,9 +37,38 @@ body {
 
 .btn-login {
     background-color: #071C4D;
-    color: #fff;
+    color: #FFF;
     &:hover {
         background-color: #234681;
-        color: #fff;
+        color: #FFF;
+    }
+}
+
+// header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    h1,
+    p {
+        color: #FFF;
+    }
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p {
+        font-size: 22px;
+        font-weight: lighter;
+    }
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #FFF;
+        &:hover {
+            background-color: #FFAA69;
+            color: #FFF;
+        }
     }
 }

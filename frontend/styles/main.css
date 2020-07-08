@@ -1,5 +1,5 @@
 body {
-  background-color: #e4e6eb;
+  background-color: #E4E6EB;
   font-family: 'Assistant', sans-serif;
   color: #071C4D;
 }
@@ -31,11 +31,44 @@ body {
 
 .btn-login {
   background-color: #071C4D;
-  color: #fff;
+  color: #FFF;
 }
 
 .btn-login:hover {
   background-color: #234681;
-  color: #fff;
+  color: #FFF;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #FFF;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #FFF;
 }
 /*# sourceMappingURL=main.css.map */
