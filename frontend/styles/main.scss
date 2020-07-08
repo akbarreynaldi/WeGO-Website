@@ -1,5 +1,5 @@
 body {
-    background-color: #E4E6EB;
+    background-color: #FFF;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
@@ -91,7 +91,7 @@ header {
     }
 }
 
-//Wisata Popular
+//Wisata Popular Heading
 .section-popular {
     min-height: 540px;
     background-color: #051334;
@@ -114,6 +114,7 @@ header {
     }
 }
 
+//Wisata Popular Content Card
 .section-popular-content {
     .section-popular-travel {
         .card-travel {
@@ -145,6 +146,7 @@ header {
     }
 }
 
+//Network Partners
 .section-networks {
     background-color: #FFF;
     margin-top: -170px;
@@ -153,8 +155,89 @@ header {
     h2 {
         font-family: 'Playfair Display', serif;
         font-weight: bold;
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
     }
     img {
         max-width: 100%;
+    }
+}
+
+//Testimonial Heading
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+//Testimonial Content
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        -webkit-border-radius: 11px;
+        -moz-border-radius: 11px;
+        -ms-border-radius: 11px;
+        -o-border-radius: 11px;
+        margin-bottom: 20px;
+    }
+    .testimonial-content {
+        min-height: 380px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .testimonial {
+        font-weight: 200;
+        font-size: 26px;
+        color: #6E6E6E;
+        min-height: 170px;
+    }
+    .trip-to {
+        font-weight: normal;
+        font-size: 22px;
+        color: #6E6E6E;
+    }
+    hr {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+//Btn Need Help & Get Started
+.btn-get-started {
+    background-color: #FF9E53;
+    color: #FFF;
+    &:hover {
+        background-color: #FFAA69;
+        color: #FFF;
+    }
+}
+
+.btn-need-help {
+    background-color: #F2F2F2;
+    color: #C3C3C3;
+    &:hover {
+        background-color: #F8F8F8;
+        color: #C3C3C3;
+    }
+}
+
+//Footer
+.section-footer {
+    a {
+        color: #071C4D;
     }
 }
